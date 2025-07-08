@@ -139,7 +139,7 @@ export default function QuoteGenerator() {
         <div className="space-y-6">
           <div className="text-center">
             <h2 className="text-2xl font-semibold text-gray-900 mb-2">
-              Quotes about "{searchedTopic}"
+              Quotes about &quot;{searchedTopic}&quot;
             </h2>
             <p className="text-gray-600">
               Found {quotes.length} inspiring quotes
@@ -156,7 +156,7 @@ export default function QuoteGenerator() {
                     <Search className="h-8 w-8 text-primary flex-shrink-0 mt-1" />
                     <div className="space-y-3 flex-1">
                       <blockquote className="text-lg leading-relaxed text-gray-800 italic">
-                        "{quote.text}"
+                        &quot;{quote.text}&quot;
                       </blockquote>
                       <div className="flex items-center justify-between">
                         <cite className="text-sm font-medium text-gray-600 not-italic">
@@ -180,7 +180,7 @@ export default function QuoteGenerator() {
           <CardContent>
             <Search className="h-12 w-12 text-gray-400 mx-auto mb-4" />
             <h3 className="text-lg font-medium text-gray-900 mb-2">
-              No quotes found for "{searchedTopic}"
+              No quotes found for &quot;{searchedTopic}&quot;
             </h3>
             <p className="text-gray-600 mb-4">
               Try searching for a different topic or check out our popular
